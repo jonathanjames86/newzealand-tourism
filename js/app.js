@@ -25,6 +25,10 @@ angular.module('nzApp', ['ui.router'])
         .state('weather', {
           url: '/weather',
           templateUrl: './weather/weather.html'
+        })
+        .state('quicktips', {
+          url: '/quicktips',
+          templateUrl: './quicktips/quicktips.html'
         });
 
 
