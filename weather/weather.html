@@ -1,4 +1,14 @@
-<div class="weather-body">
+<!DOCTYPE html>
+<div id="weather">
+  <input  placeholder="City Name" class="weatherSearch" ng-model="city">
+        <button type="button" ng-click="getWeather(city)" name="button">Submit</button>
 
+  {{milford.main.temp}}
+  {{milford.name}}
+  <div ng-repeat="city in getFive"></div>
+    {{get}}
+  <div class="">
+    {{weather.name}}
 
+  </div>
 </div>

@@ -20,7 +20,7 @@ $(document).ready(function() {
                     .next('img').fadeIn()
                     .end().appendTo('.slide-show');
             },
-            3000);
+            2000);
     });
 
 

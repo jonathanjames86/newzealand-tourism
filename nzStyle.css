@@ -7,7 +7,7 @@
     background-image: url('./img/GOPR6672.JPG');
     background-position: center;
     background-repeat: repeat;
-    background-color: #fcf6a9;
+    background-color: #D6D6A9;
     background-blend-mode: hard-light;
     background-size: cover;
 }
@@ -86,12 +86,11 @@
     margin-top: .5%;
 }
 #facebook {
-    color: #3B5998;
+    color: #fff;
     background:
 }
-hover:
 #youTube {
-  color: #E62117;
+    color: #fff;
 }
 
 /*Travel PLans! page 2;;
@@ -99,7 +98,6 @@ hover:
 
 .travelPlans {
     background: #fff;
-
 }
 .travel-body {
     width: 80%;
@@ -127,6 +125,7 @@ hover:
     font-family: 'Amatic SC';
     margin-bottom: 6%;
     overflow: hidden;
+    border-bottom: 12px solid #82CCA9;
 }
 #time {
     padding-top: 1%;
@@ -140,12 +139,13 @@ hover:
     width: 100%;
     height: 10vh;
     background: #1C2238;
-    text-align: center;
+    border: 5px solid #82CCA9;
     color: #f0ebd7;
-    font-size: 3rem;
+    font-size: 3vw;
     font-family: 'Amatic SC';
-    padding-top: 25px;
+    padding-top: 15px;
     margin-bottom: 35px;
+    text-align: center;
 }
 #travelplans-picture {
     width: 60%;
@@ -165,14 +165,21 @@ hover:
     font-size: 1.25rem;
     font-family: 'Josefin Sans';
     margin-bottom: 2%;
-    border-radius: 25px;
+    border-radius: 15px;
     padding: 20px;
     line-height: 1.5;
-
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#travel-planning-text{
+  width: 85%;
+  height: 55%;
+  margin: auto;
 }
 #bold {
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .quick-facts {
     height: 45vh;
@@ -189,7 +196,7 @@ hover:
 #quick-facts-text {
     height: 75%;
     width: 45%;
-    font-size: 1.55rem;
+    font-size: 1.55vw;
     font-family: 'Amatic SC';
     color: #f0ebd7;
     margin-right: 5%;
@@ -204,7 +211,7 @@ hover:
     font-family: 'Amatic SC';
     color: #E1AB35;
     font-size: 2rem;
-    border-radius: 20px;
+    border-radius: 12px;
     width: 85%;
     height: 20%;
     cursor: pointer;
@@ -214,41 +221,95 @@ hover:
 
 .travel-bottom {
     width: 100%;
-    height: 150vh;
+    height: 100%;
     background: #1C2238;
     overflow: hidden;
+    display: flex;
+    color: #f0ebd7;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    justify-content: space-around;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-top: 12px solid #82CCA9;
 }
 .slide-show {
-    margin-top: 5%;
-    margin-left: 18%;
-    width: 50vw;
-    height: 65vh;
+    margin: auto;
+    width: 70%;
+    height: 60vh;
+    border-radius: 10px;
     overflow: hidden;
 }
 .slide-show img {
     max-width: 100%;
-    display: block;
     left: 0;
     top: 0;
 }
+#travel-bottom-text {
+    width: 80%;
+    height: 10vh;
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Amatic SC';
+    letter-spacing: 20px;
+    color: #f0ebd7;
+}
+#travel-bottom-text-2 {
+    width: 80%;
+    height: 10vh;
+}
+#undecided-south {
+    border: 5px solid blue;
+    height: 65vh;
+    width: 43%;
+    font-family: 'Amatic SC';
+    font-size: 3rem;
+    cursor: pointer;
+    padding-bottom: 5%;
+}
+#undecided-south div {
+    width: 80%;
+    margin: auto;
+    height: 85%;
+    background: url('./img/images/mountcookedited.jpg') center no-repeat;
+    background-size: cover;
+}
+#undecided-north {
+    border: 5px solid yellow;
+    height: 65vh;
+    width: 43%;
+    font-family: 'Amatic SC';
+    font-size: 3rem;
+    cursor: pointer;
+    overflow: auto;
+    padding-bottom: 5%;
+}
+#undecided-north div {
+    width: 80%;
+    margin: auto;
+    height: 85%;
+    background: url('./img/shire.JPG') center no-repeat;
+    background-size: cover;
+}
 
-/* QUICK TIPS */
+/* ================TOP TEN================== */
 
-.quicktips-page {
+.top10-page {
     width: 100%;
     height: 100%;
-
 }
-
-.quicktips-body{
-  width: 80%;
-  height: 100%;
-  margin:auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.top10-body {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Josefin Sans';
+    font-size: 2.5rem;
 }
-.quick-header {
+.top10-header {
     height: 48vh;
     width: 100vw;
     background-image: url('./img/morning.jpg');
@@ -259,32 +320,126 @@ hover:
     background-size: cover;
     color: #fff;
     font-weight: bolder;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     /*text-align: center;*/
     font-size: 8rem;
     font-family: 'Amatic SC';
-    margin-bottom: 6%;
+    margin-bottom: 4%;
     overflow: hidden;
+    border-bottom: 12px solid #82CCA9;
 }
-#lightning-bolt{
-  height: 100%;
-  width: 25%;
+#lightning-bolt {
+    height: 100%;
+    width: 10%;
 }
-#quick-title{
-  padding-top: 15%;
+#top10-title {
+    padding-top: 12%;
 }
-.q10-imageright{
-  width: 100%;
-  height:45vh;
-  background: gray;
-  margin-bottom: 6%;
+.top10-count {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:center;
+    
+}
+#southIsland {
+    height: 80px;
+}
+#northIsland {
+    height: 80px;
+}
+.q10-imageright {
+    width: 100%;
+    height: 45vh;
+    background: #252F35;
+    margin-bottom: 5%;
+    display: flex;
+    border-radius: 15px;
+}
+.q10-imageright img {
+    height: 85%;
+    width: 35%;
+    margin: auto;
+}
+.q10-imageright section {
+    height: 75%;
+    margin: auto;
+    width: 55%;
+    color: white;
+    font-size: 2rem;
+}
+.q10-imageleft {
+    width: 100%;
+    height: 45vh;
+    background: darkgray;
+    margin-bottom: 5%;
+    display: flex;
+    border-radius: 15px;
+}
+.q10-imageleft img {
+    height: 85%;
+    width: 35%;
+    margin: auto;
+}
+.q10-imageleft section {
+    height: 75%;
+    margin: auto;
+    width: 55%;
+    color: white;
+    font-size: 2rem;
+}
 
+/*=========================NORTH ISLAND++++++++++++++*/
+
+.north-header {
+    height: 48vh;
+    width: 100vw;
+    background-image: url('./img/images/northlandtree.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-color: #D6D6A9;
+    background-blend-mode: hard-light;
+    background-size: cover;
+    color: #82CCA9;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    /*text-align: center;*/
+    font-size: 9rem;
+    font-family: 'Amatic SC';
+    margin-bottom: 4%;
+    overflow: hidden;
+    border-bottom: 12px solid #82CCA9;
 }
 
-.q10-imageleft{
-  width: 100%;
-  height:45vh;
-  background: darkgray;
-  margin-bottom: 6%;
+/*================SOUTH ISLAND+++++++++++++++++++  */
+
+.south-header {
+    height: 55vh;
+    width: 100vw;
+    background-image: url('./img/images/matthews.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-color: #D6D6A9;
+    background-blend-mode: hard-light;
+    background-size: cover;
+    color: #1C2238;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    /*text-align: center;*/
+    font-size: 9rem;
+    font-family: 'Amatic SC';
+    margin-bottom: 4%;
+    overflow: hidden;
+    border-bottom: 12px solid #82CCA9;
+}
+
+/*+++++++++++++++++++ WEATHER +++++++++++++++++++++++++*/
+
+#weather {
+    background-image: url('http://api.openweathermap.org/data/2.5/weather?q=Auckland&units=imperial&mode=html&APPID=a6d105d92252d6adf49ad53604180038');
 }
