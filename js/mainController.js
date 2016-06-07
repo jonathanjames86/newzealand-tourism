@@ -13,7 +13,19 @@ $scope.getWeather();
 //
 // };
 
-$scope.getFive = weatherService.getFive;
+
+$scope.getTop5 = function(){
+  weatherService.getTop5()
+  .then(function(response){
+      $scope.weathers = response;
+      console.log(response);
+  });
+
+};
+
+  $scope.getTop5();
+
+
 
 
 });

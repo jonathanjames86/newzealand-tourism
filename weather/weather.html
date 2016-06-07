@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<div id="weather">
-  <input  placeholder="City Name" class="weatherSearch" ng-model="city">
-        <button type="button" ng-click="getWeather(city)" name="button">Submit</button>
+<div class="weather-header">
+    Your Forcast is?..
+</div>
 
-  {{milford.main.temp}}
-  {{milford.name}}
-  <div ng-repeat="city in getFive"></div>
-    {{get}}
-  <div class="">
-    {{weather.name}}
+<div class="weather-body">
+  <input  placeholder="City Name" class="weatherSearch" ng-model="city">
+        <button type="button" ng-click="getWeather()" name="button">Submit</button>
+
+  <div class="top5" ng-repeat="location in weathers">
+
+    <p>  {{location.data.name}} </p>
+    <p>  {{location.data.main.temp}} </p>
+
+
+
+  </div>
+
+
+
+  <div class="weather-results">
+
 
   </div>
 </div>
