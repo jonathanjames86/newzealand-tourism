@@ -7,11 +7,12 @@ $scope.getWeather = function(city){
     // console.log(response);
   });
 };
-// $scope.getWeather('Auckland');
+$scope.getWeather();
 // $scope.get5weather = function() {
 //   var arr = weatherService.get5Weather();
 //
 // };
+
 $scope.getFive = weatherService.getFive;
 
 
