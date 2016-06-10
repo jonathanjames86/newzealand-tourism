@@ -4,7 +4,7 @@ angular.module('nzApp').service('weatherService', function($http, $q) {
         var defer = $q.defer();
         $http.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial&APPID=a6d105d92252d6adf49ad53604180038')
             .then(function(city) {
-                console.log(data);
+                console.log(city);
                 defer.resolve(city.data);
             });
         return defer.promise;

@@ -20,7 +20,7 @@ angular.module('nzApp', ['ui.router'])
         })
         .state('travelPlans',{
           url:'/travelPlans',
-          templateUrl: './travelPLans/travelPlans.html',
+          templateUrl: './travelPLans/travelPlans.html'
         })
         .state('weather', {
           url: '/weather',
