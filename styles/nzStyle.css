@@ -1,0 +1,608 @@
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script:700|EB+Garamond)) * {
+    margin: 0;
+}
+
+#landing-page {
+    height: 100vh;
+    width: 100%;
+    background-image: url('./img/GOPR6672-min.JPG');
+    background-position: center;
+    background-repeat: repeat;
+    background-color: #D6D6A9;
+    background-blend-mode: hard-light;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.landing-page-content {
+    width: 100%;
+    height: 100vh;
+    font-size: 2rem;
+    margin: auto;
+}
+.moari {
+    background: hsla(360, 100%, 0%, 0.7);
+    padding-top: 2%;
+    height: 12vh;
+    width: 100%;
+    padding-left: 5%;
+    margin-bottom: 25vh;
+    color: hsla(220, 100%, 100%, 0.7);
+    font-family: 'Dancing Script';
+    font-size: 2.2rem;
+}
+
+/*.moari-text{
+  background:lightgray;
+  height:100%;
+  width:90%;
+}
+.map-image{
+  height:8vh;
+
+}*/
+
+#clickme {
+    height: 20vh;
+    margin-left: 45%;
+    background: none;
+    margin-bottom: 25vh;
+    cursor: pointer;
+}
+.translation {
+    height: 13.5vh;
+    padding-left: 45%;
+    padding-top: 1%;
+    color: hsla(220, 100%, 100%, 0.7);
+    text-align: center;
+    background: hsla(360, 100%, 0%, 0.7);
+    font-family: 'EB Garamond';
+}
+.proverb {
+    font-size: 1rem;
+}
+.footer-menu {
+    width: 100%;
+    bottom: 0;
+    height: 8vh;
+    background: hsla(220, 75%, 12%, 0.65);
+    position: fixed;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bottom-menu {
+    margin-top: 10px;
+    width: 80px;
+    height: 100%;
+    cursor: pointer;
+}
+#log-cabin {
+    height: 50px;
+    width: 50px;
+}
+#Layer_1 {
+    width: 50px;
+    height: 50px;
+}
+#social-media {
+    margin-top: .5%;
+}
+#facebook {
+    color: #fff;
+    background:
+}
+#youTube {
+    color: #fff;
+}
+
+/*Travel PLans! page 2;;
+*/
+
+.travelPlans {
+    background: #fff;
+}
+.travel-body {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 25px;
+    /*justify-content: space-around;*/
+}
+.travel-header {
+    height: 63vh;
+    width: 100%;
+    background-image: url('./img/images/GOPR6669-min.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-color: #D6D6A9;
+    background-blend-mode: darken;
+    background-size: cover;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Amatic SC';
+    margin-bottom: 6%;
+    overflow: hidden;
+    border-bottom: 12px solid #82CCA9;
+}
+#time {
+    padding-top: 1%;
+}
+#header-logo {
+    width: 100%;
+    height: 80px;
+}
+.travel-body-header {
+    border-radius: 25px;
+    width: 100%;
+    height: 12vh;
+    background: #1C2238;
+    border: 5px solid #82CCA9;
+    color: #f0ebd7;
+    font-size: 3vw;
+    font-family: 'Amatic SC';
+    padding-top: 15px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+#travelplans-picture {
+    width: 60%;
+    height: 60vh;
+    background: url('./img/GOPR6918-min.JPG')center no-repeat;
+    background-size: cover;
+}
+.travel-planning {
+    width: 35%;
+    height: 70vh;
+    background: #D6D3A9;
+    font-size: 1.25rem;
+    font-family: 'Josefin Sans';
+    margin-bottom: 2%;
+    border-radius: 15px;
+    padding: 20px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 3px solid #E1AB35;
+}
+#travel-planning-img {
+    width: 80%;
+    height: 40%;
+    background-size: cover;
+    margin-left: 10%;
+    padding-top: 3%;
+}
+#bold {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+#travel-planning-text {
+    width: 85%;
+    height: 55%;
+    margin: auto;
+    font-size: 1rem;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    width: 1px;
+}
+.quick-facts {
+    height: 45vh;
+    background: #1C2238;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+#quick-facts-img {
+    height: 75%;
+    width: 50%;
+    margin: 5%
+}
+#quick-facts-text {
+    height: 75%;
+    width: 45%;
+    font-size: 1.55vw;
+    font-family: 'Amatic SC';
+    color: #f0ebd7;
+    margin: auto;
+    line-height: 1.35;
+    overflow: scroll;
+}
+#quick-facts-text h2 {
+    color: #E1AB35;
+    font-family: 'Amatic SC';
+    font-size: 2.5vw
+}
+#facts-button {
+    margin-top: 15px;
+    background: none;
+    font-family: 'Amatic SC';
+    color: #E1AB35;
+    font-size: 2vw;
+    border-radius: 12px;
+    width: 85%;
+    height: 20%;
+    cursor: pointer;
+}
+
+/*SLIDE SHOW*/
+
+.travel-bottom {
+    width: 100%;
+    height: 100%;
+    background: #1C2238;
+    display: flex;
+    color: #f0ebd7;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    justify-content: space-around;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-top: 12px solid #82CCA9;
+}
+.slide-show {
+    margin: auto;
+    width: 70%;
+    height: 60vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slide-show img {
+    max-width: 100%;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+}
+#travel-bottom-text {
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Amatic SC';
+    letter-spacing: 8px;
+    color: #f0ebd7;
+    padding-bottom: 2%;
+}
+#travel-bottom-text-2 {
+    width: 80%;
+    height: 10vh;
+    margin auto;
+    padding-top: 2%;
+}
+#undecided-south {
+    border: 5px solid blue;
+    height: 65vh;
+    width: 43%;
+    font-family: 'Amatic SC';
+    font-size: 3rem;
+    cursor: pointer;
+    padding-bottom: 5%;
+}
+#undecided-south div {
+    width: 80%;
+    margin: auto;
+    height: 85%;
+    background: url('./img/images/mountcookedited.jpg') center no-repeat;
+    background-size: cover;
+}
+#undecided-north {
+    border: 5px solid yellow;
+    height: 65vh;
+    width: 43%;
+    font-family: 'Amatic SC';
+    font-size: 3rem;
+    cursor: pointer;
+    overflow: auto;
+    padding-bottom: 5%;
+}
+#undecided-north div {
+    width: 80%;
+    margin: auto;
+    height: 85%;
+    background: url('./img/shire.JPG') center no-repeat;
+    background-size: cover;
+}
+
+/* ================TOP TEN================== */
+
+.top10-page {
+    width: 100%;
+    height: 100%;
+}
+.top10-body {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Josefin Sans';
+    font-size: 2.5rem;
+}
+.top10-header {
+    height: 48vh;
+    width: 100vw;
+    background-image: url('./img/morning.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-color: #D6D6A9;
+    background-blend-mode: hard-light;
+    background-size: cover;
+    color: #fff;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    /*text-align: center;*/
+    font-size: 8rem;
+    font-family: 'Amatic SC';
+    margin-bottom: 4%;
+    overflow: hidden;
+    border-bottom: 12px solid #82CCA9;
+}
+#lightning-bolt {
+    height: 100%;
+    width: 10%;
+}
+#top10-title {
+    padding-top: 12%;
+}
+.top10-count {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#southIsland {
+    height: 80px;
+}
+#northIsland {
+    height: 80px;
+}
+.q10-imageright {
+    width: 100%;
+    height: 50vh;
+    background: #252F35;
+    margin-bottom: 5%;
+    display: flex;
+    border-radius: 15px;
+    border: 6px solid #82CCA9;
+}
+.q10-imageright img {
+    height: 85%;
+    width: 35%;
+    margin: auto;
+}
+.q10-imageright section {
+    height: 75%;
+    margin: auto;
+    width: 55%;
+    color: white;
+    overflow: scroll;
+    font-size: 1.5rem;
+}
+.q10-imageleft {
+    width: 100%;
+    height: 50vh;
+    background: #D6D3A9;
+    margin-bottom: 5%;
+    display: flex;
+    border-radius: 15px;
+    border: 6px solid #1C2238;
+}
+.q10-imageleft img {
+    height: 85%;
+    width: 35%;
+    margin: auto;
+}
+.q10-imageleft section {
+    height: 75%;
+    margin: auto;
+    width: 55%;
+    overflow: scroll;
+    color: #1C2238;
+    font-size: 1.5rem;
+}
+
+/*=========================NORTH ISLAND++++++++++++++*/
+
+.north-header {
+    height: 60vh;
+    width: 90vw;
+    margin-left: 5%;
+    background-image: url('./img/images/hobbChill.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: #DFE3E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 9rem;
+    font-family: 'Amatic SC';
+    overflow: hidden;
+    border-bottom: 20px solid #82CCA9;
+    border-left: 8px solid #82CCA9;
+}
+.north-body {
+    width: 90vw;
+    height: 100%;
+    margin: auto;
+    border-right: 10px solid #82CCA9;
+    margin-bottom: 5%;
+}
+.buffer {
+    width: 100%;
+    height: 20vh;
+    font-size: 4rem;
+    font-family: 'Amatic SC';
+    text-align: center;
+    padding-top: 3%;
+}
+.three-day {
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    font-size: 2rem;
+    font-family: 'Josefin Sans';
+    padding: 4%;
+    color: #DFE3E2;
+    background-image: url('http://www.frogs-in-nz.com/var/ezwebin_site/storage/images/infos-voyageurs/albums-photos/ile-du-nord-paysages-et-villes/auckland-et-sa-region/auckland-by-night3/643208-1-fre-FR/auckland-by-night.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsla(360, 100%, 0%, 0.7);
+    background-blend-mode: hard-light;
+}
+.three-day h2 {}
+.one-week {
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.one-week img {
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+}
+.one-week section {
+    width: 45%;
+    height: 80%;
+    margin: auto;
+    font-size: 2rem;
+    font-family: 'Josefin Sans';
+}
+.twoOrthree {
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+}
+.twoOrthree2 {
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.twoOrthree section {
+    width: 45%;
+    height: 80%;
+    margin: auto;
+    font-size: 2rem;
+    font-family: 'Josefin Sans';
+    background:
+}
+.twoOrthree img {
+    height: 100%;
+    width: 50%;
+}
+
+/*================SOUTH ISLAND+++++++++++++++++++  */
+
+.south-header {
+    height: 60vh;
+    width: 100vw;
+    background-image: url('./img/tent.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+    background-color: #9E8965;
+    background-size: cover;
+    color: #DA3C36;
+    display: flex;
+    justify-content: center;
+    font-size: 9rem;
+    font-family: 'Amatic SC';
+    overflow: hidden;
+    border-bottom: 20px solid #82CCA9;
+}
+.south-body {
+    width: 85vw;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.south-three-day {
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    font-size: 2rem;
+    font-family: 'Josefin Sans';
+    padding: 4%;
+    color: #DFE3E2;
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsla(360, 100%, 0%, 0.7);
+    background-blend-mode: hard-light;
+}
+.south-queens {
+    height: 100%;
+    width: 50%;
+    background-image: url('./img/queenstowncar.JPG');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hard-light;
+    background-color: #9E8965;
+}
+.milfordS{
+  height: 100%;
+  width: 50%;
+  background-image: url('./img/milfords.JPG');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: hard-light;
+  background-color: #C9E1FB;
+}
+.mountO {
+    height: 100%;
+    width: 50%;
+    background-image: url('./img/mountO.JPG');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: hard-light;
+    background-color: #9E8965;
+}
+
+.hotwater-beach{
+  height: 100%;
+  width: 50%;
+  background-image: url('./img/images/hotwaterbeach.jpg');
+  background-size: cover;
+  background-position: center;
+  /*background-blend-mode: hard-light;
+  background-color: #9E8965;*/
+
+}
+.ninety-mile{
+  height: 100%;
+  width: 50%;
+  background-image: url('./img/images/90milebeach.jpg');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: hard-light;
+  background-color: #9E8965;
+
+}
+
+/*+++++++++++++++++++ WEATHER +++++++++++++++++++++++++*/
+.weather-header{
+
+}
+#weather {
+    background-image: url('http://api.openweathermap.org/data/2.5/weather?q=Auckland&units=imperial&mode=html&APPID=a6d105d92252d6adf49ad53604180038');
+}
