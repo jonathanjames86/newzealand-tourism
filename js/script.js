@@ -24,8 +24,8 @@ $(document).ready(function() {
     });
 
     $(function() {
-        $('#weather').on('click', function() {
-            $('.weather-header').addClass('animated fadeInDown').on('webkitAnimationEnd mozAnimationEnd oanimationend animationend',
+        $('#weather-button').on('click', function() {
+            $('#your-weather').addClass('animated fadeInDown').on('webkitAnimationEnd mozAnimationEnd oanimationend animationend',
                 function() {
                     $(this).removeClass('animated fadeInDown');
                 });
